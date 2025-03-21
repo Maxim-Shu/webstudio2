@@ -1,0 +1,36 @@
+:root {
+    --hero-title: #FFFFFF;
+    --back-hero-footer: #2F303A;
+    --logo-btn: #2196F3;
+    --text-second: #757575;
+    --teams-buttons: #F5F4FA;
+    --title-item: #212121;
+}
+
+.hero, footer {
+    background-color: var(--back-hero-footer)
+}
+
+.footer-logo, .header-logo, .header-info {
+    color: var(--logo-btn);
+}
+
+.hero-btn {
+    background-color:var(--logo-btn) ;
+}
+
+.header-number, .abilities-text, .teams-text, .footer-info, .footer-number, .brief-desc {
+    color: var(--text-second);
+}
+
+.teams, .buttons_btn {
+    background-color: var(--teams-buttons) ;
+}
+
+.hero-title {
+    color: var(--hero-title) ;
+}
+
+.pages-list-item, .abilities-title, .things-title, .persons-list-item, .buttons_btn, .brief-title {
+    color:var(--title-item) ;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
@@ -14,28 +15,32 @@
         <nav>
           <ul>
             <li>
-              <a href="./index.html">Студія</a>
+              <a class="pages-list-item" href="./index.html">Студія</a>
             </li>
             <li>
-              <a href="#">Портфоліо</a>
+              <a class="pages-list-item" href="#">Портфоліо</a>
             </li>
             <li>
-              <a href="#">Контакти</a>
+              <a class="pages-list-item" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="header-roster">
           <li class="header-element">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-info" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="header-element">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="header-number" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
     </header>
     <main>
-      <section class="buttons">
+      <section class="portfolio">
         <div>
           <ul class="buttons_list">
             <li class="buttons_item">
@@ -55,101 +60,72 @@
             </li>
           </ul>
         </div>
-      </section>
-
-      <section class="brief">
         <div>
           <ul>
             <li>
-              <a class="brief-link" href="">
-                <img
-                  class="brief-image"
-                  src="./img/Techno.png"
-                  alt="Технокряк"
-                />
-                <h3 class="brief-title">Технокряк</h3>
-                <p class="brief-desc">Веб-сайт</p>
-              </a>
+              <img class="brief-image" src="./img/Techno.png" alt="Технокряк" />
+              <h3 class="brief-title">Технокряк</h3>
+              <p class="brief-desc">Веб-сайт</p>
             </li>
             <li class="brief-item">
-              <a class="brief-link" href="#">
-                <img class="brief_image" src="./img/poster.png" alt="Постер" />
-                <h3 class="brief-title">Постер New Orlean vs Golden Star</h3>
-                <p class="brief-desc">Дизайн</p>
-              </a>
+              <img class="brief_image" src="./img/poster.png" alt="Постер" />
+              <h3 class="brief-title">Постер New Orlean vs Golden Star</h3>
+              <p class="brief-desc">Дизайн</p>
             </li>
             <li class="brief-item">
-              <a class="brief-link" href="#">
-                <img
-                  class="brief_image"
-                  src="./img/restouran.png"
-                  alt="Ресторан"
-                />
-                <h3 class="brief-title">Ресторан Seafood</h3>
-                <p class="brief-desc">Додаток</p>
-              </a>
+              <img
+                class="brief_image"
+                src="./img/restouran.png"
+                alt="Ресторан"
+              />
+              <h3 class="brief-title">Ресторан Seafood</h3>
+              <p class="brief-desc">Додаток</p>
             </li>
             <li class="brief-item">
-              <a class="brief-link" href="#">
-                <img
-                  class="brief_image"
-                  src="./img/prime.png"
-                  alt="Проєкт Prime"
-                />
-                <h3 class="brief-title">Проєкт Prime</h3>
-                <p class="brief-desc">Маркетинг</p>
-              </a>
+              <img
+                class="brief_image"
+                src="./img/prime.png"
+                alt="Проєкт Prime"
+              />
+              <h3 class="brief-title">Проєкт Prime</h3>
+              <p class="brief-desc">Маркетинг</p>
             </li>
             <li class="brief-item">
-              <a class="brief-link" href="#">
-                <img
-                  class="brief_image"
-                  src="./img/boxes.png"
-                  alt="Проєкт Boxes"
-                />
-                <h3 class="brief-title">Проєкт Boxes</h3>
-                <p class="brief-desc">Додаток</p>
-              </a>
+              <img
+                class="brief_image"
+                src="./img/boxes.png"
+                alt="Проєкт Boxes"
+              />
+              <h3 class="brief-title">Проєкт Boxes</h3>
+              <p class="brief-desc">Додаток</p>
             </li>
             <li class="brief-item">
-              <a class="brief-link" href="#">
-                <img
-                  class="brief_image"
-                  src="./image/borders.png"
-                  alt="Немає меж"
-                />
-                <h3 class="brief-title">Inspiration has no Borders</h3>
-                <p class="brief-desc">Веб-сайт</p>
-              </a>
+              <img
+                class="brief_image"
+                src="./img/borders.png"
+                alt="Немає меж"
+              />
+              <h3 class="brief-title">Inspiration has no Borders</h3>
+              <p class="brief-desc">Веб-сайт</p>
             </li>
             <li class="brief-item">
-              <a class="brief-link" href="#">
-                <img
-                  class="brief_image"
-                  src="./img/edition.png"
-                  alt="Книга лімітована колекція"
-                />
-                <h3 class="brief-title">Видання Limited Edition</h3>
-                <p class="brief-desc">Дизайн</p>
-              </a>
+              <img
+                class="brief_image"
+                src="./img/edition.png"
+                alt="Книга лімітована колекція"
+              />
+              <h3 class="brief-title">Видання Limited Edition</h3>
+              <p class="brief-desc">Дизайн</p>
             </li>
             <li class="brief-item">
-              <a class="brief-link" href="#">
-                <img class="brief_image" src="./img/lab.png" alt="Проєкт LAB" />
-                <h3 class="brief-title">Проєкт LAB</h3>
-                <p class="brief-desc">Маркетинг</p>
-              </a>
+              <img class="brief_image" src="./img/lab.png" alt="Проєкт LAB" />
+              <h3 class="brief-title">Проєкт LAB</h3>
+              <p class="brief-desc">Маркетинг</p>
             </li>
             <li class="brief-item">
-              <a class="brief-link" href="#">
-                <img
-                  class="brief_image"
-                  src="./img/bussines.png"
-                  alt="Бізнес"
-                />
-                <h3 class="brief-title">Growing Business</h3>
-                <p class="brief-desc">Додаток</p>
-              </a>
+              <img class="brief_image" src="./img/bussines.png" alt="Бізнес" />
+              <h3 class="brief-title">Growing Business</h3>
+              <p class="brief-desc">Додаток</p>
             </li>
           </ul>
         </div>
@@ -170,12 +146,12 @@
               >
             </li>
             <li class="footer-item">
-              <a href="mailto:info@devstudio.com" class="footer-link"
+              <a href="mailto:info@devstudio.com" class="footer-info"
                 >info@devstudio.com</a
               >
             </li>
             <li class="footer-item">
-              <a href="tel:+380961111111" class="footer-link"
+              <a href="tel:+380961111111" class="footer-number"
                 >+38 096 111 11 11</a
               >
             </li>
