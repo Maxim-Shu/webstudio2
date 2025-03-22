@@ -34,3 +34,41 @@
 .pages-list-item, .abilities-title, .things-title, .persons-list-item, .buttons_btn, .brief-title {
     color:var(--title-item) ;
 }
+.index-body {
+    font-family: Roboto
+}
+.portfolio-body {
+    font-family: Roboto;
+}
+
+.index-header {
+    line-height: 100%;
+}
+
+.hero-title {
+    line-height: 1.36;
+}
+
+.hero-btn {
+    line-height: 1.875;
+}
+
+.abilities-title {
+    line-height: 100%;
+}
+
+.abilities-text {
+    line-height: 1.71;
+}
+
+.things-title {
+    line-height: 100%;
+}
+
+.teams-text {
+    line-height: 100%;
+}
+
+.footer-item {
+    line-height: 1.71;
+}
