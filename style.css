@@ -41,7 +41,7 @@
     font-family: Roboto;
 }
 
-.index-header {
+.index-header, .portfolio-header {
     line-height: 100%;
 }
 
@@ -69,6 +69,22 @@
     line-height: 100%;
 }
 
+.footer-logo {
+    line-height: 100%;
+}
+
 .footer-item {
     line-height: 1.71;
+}
+
+.buttons_btn {
+    line-height: 1.62;
+}
+
+.brief-title {
+    line-height: 2;
+}
+
+.brief-desc {
+    line-height: 1.87;
 }
