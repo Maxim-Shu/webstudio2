@@ -13,6 +13,23 @@
     padding: 0 15px;
 }
 
+.header-flex {
+    display: flex;
+}
+
+.pages-list, .address-list {
+    display: flex;
+    gap: 50px;
+}
+
+.pages-list {
+    margin-left: 93px;
+}
+
+.address-list {
+   margin-left: 344px; 
+}
+
 .index-header, .portfolio-header {
     padding-top: 24px;
     padding-bottom: 25px;
@@ -65,6 +82,8 @@
 
 .hero-title {
     color: var(--hero-title) ;
+    display: flex;
+    justify-content: center;
 }
 
 .pages-list-item, .abilities-title, .things-title, .persons-list-item, .buttons_btn, .brief-title {
