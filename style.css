@@ -7,6 +7,42 @@
     --title-item: #212121;
 }
 
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.index-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.abilities {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.things {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.teams {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .hero, footer {
     background-color: var(--back-hero-footer)
 }
