@@ -13,7 +13,7 @@
     padding: 0 15px;
 }
 
-.index-header {
+.index-header, .portfolio-header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -23,7 +23,7 @@
     padding-bottom: 200px;
 }
 
-.abilities {
+.abilities, .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
 }
