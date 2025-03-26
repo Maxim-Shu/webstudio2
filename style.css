@@ -22,6 +22,11 @@
     gap: 50px;
 }
 
+.abilities-list {
+    display: flex;
+    gap: 30px;
+}
+
 .pages-list {
     margin-left: 93px;
 }
@@ -80,19 +85,11 @@
     background-color: var(--teams-buttons) ;
 }
 
-.hero-title {
-    color: var(--hero-title) ;
-    display: flex;
-    justify-content: center;
-}
-
 .pages-list-item, .abilities-title, .things-title, .persons-list-item, .buttons_btn, .brief-title {
     color:var(--title-item) ;
 }
-.index-body {
-    font-family: Roboto
-}
-.portfolio-body {
+
+body {
     font-family: Roboto;
 }
 
@@ -101,11 +98,16 @@
 }
 
 .hero-title {
+    color: var(--hero-title);
     line-height: 1.36;
+    text-align: center;
 }
 
 .hero-btn {
     line-height: 1.875;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .abilities-title {
