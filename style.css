@@ -27,6 +27,11 @@
     gap: 30px;
 }
 
+.things-list {
+    display: flex;
+    gap: 30px;
+}
+
 .pages-list {
     margin-left: 93px;
 }
@@ -55,14 +60,61 @@
     padding-bottom: 94px;
 }
 
+.things-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .teams {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
+.persons-list {
+    display: flex;
+    gap: 30px;
+}
+
+.teams-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.persons-list-item {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.teams-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item-img {
+    width: 270px;
+    height: 260px;
+}
+
+.teams-item {
+    background-color: var(--hero-title);
+    width: 270px;
+    height: 368px;
+}
+
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-logo {
+    margin-bottom: 60px;
+    margin-top: 20px;
 }
 
 .hero, footer {
