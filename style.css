@@ -121,7 +121,7 @@
     background-color: var(--back-hero-footer)
 }
 
-.footer-logo, .header-logo, .header-info {
+.footer-logo, .header-logo, .header-info, .address-info {
     color: var(--logo-btn);
 }
 
@@ -129,7 +129,11 @@
     background-color:var(--logo-btn) ;
 }
 
-.header-number, .abilities-text, .teams-text, .footer-info, .footer-number, .brief-desc {
+.header-number, .abilities-text,
+ .teams-text,
+ .footer-info,
+ .footer-number,
+ .brief-desc,  {
     color: var(--text-second);
 }
 
@@ -137,7 +141,13 @@
     background-color: var(--teams-buttons) ;
 }
 
-.pages-list-item, .abilities-title, .things-title, .persons-list-item, .buttons_btn, .brief-title {
+.pages-list-item, .abilities-title,
+ .things-title,
+ .persons-list-item,
+ .buttons_btn,
+ .brief-title,
+ .address-number,
+ .header-number {
     color:var(--title-item) ;
 }
 
