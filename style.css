@@ -42,7 +42,7 @@
     flex-direction: column;
     width: 370px;
     height: 404px;
-    border: 1px solid #EEE;
+    outline: 1px solid #EEE;
     text-align: center;
 }
 
