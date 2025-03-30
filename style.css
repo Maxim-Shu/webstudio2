@@ -43,7 +43,7 @@
     width: 370px;
     height: 404px;
     outline: 1px solid #EEE;
-    text-align: center;
+    text-align: start;
 }
 
 .pages-list, .address-list {
@@ -228,11 +228,15 @@ body {
 .brief-title {
     line-height: 2;
     margin-top: 20px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 4px;
 }
 
 .brief-desc {
     line-height: 1.87;
-    margin-bottom: 4px;
+    margin-right: 24px;
+    margin-left: 24px;
 }
 
 
@@ -242,7 +246,6 @@ body {
 .buttons_btn:hover {
     background-color: var(--logo-btn);
     color: var(--hero-title);
-    padding: 6px 25px 6px 25px;
     cursor: pointer;
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10),
         0px 1px 2px 0px rgba(0, 0, 0, 0.08),
