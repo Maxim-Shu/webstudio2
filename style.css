@@ -40,7 +40,7 @@
 .brief-item {
     display: flex;
     flex-direction: column;
-    width: 370px;
+    flex-basis: calc((100% - 60px) / 3);
     height: 404px;
     outline: 1px solid #EEE;
     text-align: start;
