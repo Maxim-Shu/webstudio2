@@ -25,6 +25,22 @@
     margin-top: 50px;
 }
 
+.abilities-img {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: var(--teams-buttons);
+    margin-bottom: 30px;
+}
+
+.abilities-img-item {
+    width: 70px;
+    height: 70px;
+}
+
 .buttons_btn {
     padding: 6px 22px 6px 22px;
     border: 0;
@@ -49,6 +65,7 @@
 .pages-list, .address-list {
     display: flex;
     gap: 50px;
+    line-height: 1.14;
 }
 
 .abilities-list {
@@ -130,11 +147,6 @@
     height: 368px;
 }
 
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 .footer-list {
     display: flex;
     flex-direction: column;
@@ -142,8 +154,8 @@
 }
 
 .footer-logo {
-    margin-bottom: 60px;
-    margin-top: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .hero, footer {
@@ -180,9 +192,10 @@ body {
     font-family: Roboto;
 }
 
-.index-header, .portfolio-header {
-    line-height: 100%;
+.header-logo, .footer-logo {
+    line-height: 1.38;
 }
+
 
 .hero-title {
     color: var(--hero-title);
@@ -198,23 +211,20 @@ body {
 }
 
 .abilities-title {
-    line-height: 100%;
+    line-height: 1.14;
+    margin-bottom: 10px;
 }
 
 .abilities-text {
     line-height: 1.71;
 }
 
-.things-title {
-    line-height: 100%;
+.things-title, .teams-title {
+    line-height: 1.16;
 }
 
-.teams-text {
-    line-height: 100%;
-}
-
-.footer-logo {
-    line-height: 100%;
+.teams-text, .persons-list-item {
+    line-height: 1.18;
 }
 
 .footer-item {
