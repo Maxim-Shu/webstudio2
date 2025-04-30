@@ -86,7 +86,13 @@
    margin-left: auto; 
 }
 
-.index-header, .portfolio-header {
+.portfolio-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: #ECECEC solid 1px;
+}
+
+.index-header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -94,6 +100,12 @@
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .abilities, .portfolio {
@@ -168,6 +180,8 @@
 
 .hero-btn {
     background-color:var(--logo-btn) ;
+    border: none;
+    padding: 10px 32px;
 }
 
 .header-number, .abilities-text,.teams-text,.footer-info,.footer-number,.brief-desc {
@@ -201,6 +215,8 @@ body {
     color: var(--hero-title);
     line-height: 1.36;
     text-align: center;
+    font-size: 44px;
+    width: 696px;
 }
 
 .hero-btn {
