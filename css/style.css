@@ -19,16 +19,14 @@ body {
 
 .header-flex {
     display: flex;
+    align-items: center;
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding: 25px 0 25px 0;
     border-bottom: #ECECEC solid 1px;
 }
 
-.footer-logo,
-.header-logo,
 .header-info,
 .address-info {
     color: var(--logo-btn);
@@ -54,10 +52,16 @@ body {
     color: var(--title-item);
 }
 
-.header-logo,
-.footer-logo {
+.header-logo {
     line-height: 1.38;
     font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+}
+
+.web {
+    color: var(--logo-btn);
 }
 
 .hero {
@@ -88,6 +92,8 @@ footer {
     text-align: center;
     font-size: 44px;
     width: 696px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .hero-btn {
@@ -95,6 +101,10 @@ footer {
     display: block;
     margin: 0 auto;
     margin-top: 30px;
+    border-radius: 4px;
+    color: var(--hero-title);
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .abilities-img {
@@ -121,16 +131,19 @@ footer {
 .abilities,
 .portfolio {
     padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
 }
 
 .abilities-title {
     line-height: 1.14;
     margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .abilities-text {
     line-height: 1.71;
+    font-size: 14px;
 }
 
 .things-list {
@@ -146,6 +159,8 @@ footer {
 .things-title {
     text-align: center;
     margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
 }
 
 .things-title,
@@ -161,6 +176,8 @@ footer {
 .teams-title {
     text-align: center;
     margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
 }
 
 .teams-text {
@@ -179,9 +196,15 @@ footer {
     background-color: var(--teams-buttons);
 }
 
+.persons-list-item {
+    font-weight: 500;
+    font-size: 16px;
+}
+
 .teams-text,
 .persons-list-item {
     line-height: 1.18;
+    font-size: 16px;
 }
 
 .pages-list,
@@ -274,11 +297,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 9px;
-}
-
-.footer-logo {
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .footer {
@@ -286,8 +305,17 @@ footer {
     padding-bottom: 60px
 }
 
+.footer-logo {
+    line-height: 1.38;
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--hero-title);
+}
+
 .footer-item {
     line-height: 1.71;
+    color: var(--hero-title);
 }
 
 
