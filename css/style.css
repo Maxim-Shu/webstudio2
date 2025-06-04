@@ -1,0 +1,295 @@
+:root {
+    --hero-title: #FFFFFF;
+    --back-hero-footer: #2F303A;
+    --logo-btn: #2196F3;
+    --text-second: #757575;
+    --teams-buttons: #F5F4FA;
+    --title-item: #212121;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-flex {
+    display: flex;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: #ECECEC solid 1px;
+}
+
+.footer-logo,
+.header-logo,
+.header-info,
+.address-info {
+    color: var(--logo-btn);
+}
+
+.header-number,
+.abilities-text,
+.teams-text,
+.footer-info,
+.footer-number,
+.brief-desc {
+    color: var(--text-second);
+}
+
+.pages-list-item,
+.abilities-title,
+.things-title,
+.persons-list-item,
+.buttons_btn,
+.brief-title,
+.address-number,
+.header-number {
+    color: var(--title-item);
+}
+
+.header-logo,
+.footer-logo {
+    line-height: 1.38;
+    font-family: "Raleway";
+}
+
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero,
+footer {
+    background-color: var(--back-hero-footer)
+}
+
+.hero-btn {
+    background-color: var(--logo-btn);
+    border: none;
+    padding: 10px 32px;
+}
+
+.hero-title {
+    color: var(--hero-title);
+    line-height: 1.36;
+    text-align: center;
+    font-size: 44px;
+    width: 696px;
+}
+
+.hero-btn {
+    line-height: 1.875;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.abilities-img {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: var(--teams-buttons);
+    margin-bottom: 30px;
+}
+
+.abilities-img-item {
+    width: 70px;
+    height: 70px;
+}
+
+.abilities-list {
+    display: flex;
+    gap: 30px;
+}
+
+.abilities,
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.abilities-title {
+    line-height: 1.14;
+    margin-bottom: 10px;
+}
+
+.abilities-text {
+    line-height: 1.71;
+}
+
+.things-list {
+    display: flex;
+    gap: 30px;
+}
+
+.things {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.things-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.things-title,
+.teams-title {
+    line-height: 1.16;
+}
+
+.teams {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.teams-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.teams-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.teams-item {
+    background-color: var(--hero-title);
+    width: 270px;
+    height: 368px;
+}
+
+.teams,
+.buttons_btn {
+    background-color: var(--teams-buttons);
+}
+
+.teams-text,
+.persons-list-item {
+    line-height: 1.18;
+}
+
+.pages-list,
+.address-list {
+    display: flex;
+    gap: 50px;
+    line-height: 1.14;
+}
+
+.pages-list {
+    margin-left: 93px;
+}
+
+.address-list {
+    margin-left: auto;
+}
+
+.persons-list {
+    display: flex;
+    gap: 30px;
+}
+
+.persons-list-item {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.item-img {
+    width: 270px;
+    height: 260px;
+}
+
+.buttons_list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 94px;
+    margin-top: 50px;
+}
+
+.buttons_btn {
+    padding: 6px 22px 6px 22px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.buttons_btn {
+    line-height: 1.62;
+}
+
+.buttons_btn:hover {
+    background-color: var(--logo-btn);
+    color: var(--hero-title);
+    cursor: pointer;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10),
+        0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-brief {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.brief-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 60px) / 3);
+    height: 404px;
+    outline: 1px solid #EEE;
+    text-align: start;
+}
+
+.brief-title {
+    line-height: 2;
+    margin-top: 20px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 4px;
+}
+
+.brief-desc {
+    line-height: 1.87;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-logo {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+.footer-item {
+    line-height: 1.71;
+}
+
+
+
+
